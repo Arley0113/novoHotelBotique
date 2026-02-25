@@ -1,9 +1,12 @@
 
 import React from "react";
 import Header from "./components/Header.jsx";
-import Hero from "./Hero/Hero.jsx"
+import Hero from "./sections/Hero.jsx"
 import RoomsCard from "./components/RoomsCard.jsx";
-import Rooms from "./Hero/Rooms.jsx";
+import Rooms from "./sections/Rooms.jsx";
+import Gallery from "./sections/Gallery.jsx";
+import Contact from "./sections/Contact.jsx";
+
 
 function App(){
   return (
@@ -11,6 +14,8 @@ function App(){
      <Header></Header>
      <Hero />
     <Rooms />
+    <Gallery/>
+    <Contact/>
     </>
   );
 }

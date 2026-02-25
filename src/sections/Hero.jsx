@@ -1,5 +1,5 @@
 import React from "react";
-import "./hero.css";
+import "./Hero.css";
 
 export default function Hero() {
   return (
